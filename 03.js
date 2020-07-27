@@ -11,7 +11,6 @@ const palindrome = (string = "") => {
 }
 
 program
-    /** 1.Add */
     .command('palindrome', 'a word, phrase, or sequence that reads the same backward as forward')
     .argument('<word>', 'String')
     .action(({
